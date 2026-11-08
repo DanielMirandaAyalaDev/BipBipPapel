@@ -1,171 +1,234 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>a Cerca de</title>
+    <title>Acerca de Nosotros</title>
+    <!--Importación de archivo Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--Iconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Importación de archivo Style propio de proyecto-->
+    <link rel="stylesheet" href="style.css">
 </head>
-<!--Importación de archivo Style propio de proyecto-->
-<link rel="stylesheet" src="style.css">
-<!--Importación de archivo Boostrap CSS-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 <body>
     <header>
-    <!--Contenedor general del header-->
-        <div id="ContenedorHeader">
-            <p>Envio a todo México</p>
-            <p>Compra minima de 699</p>
-            <p>Pago seguro</p>
+        <!--Barra superior del header-->
+        <div id="ContenedorHeader" class="py-2 small">
+            <p class="mb-0"><i class="bi bi-truck me-1"></i>Envío a todo México</p>
+            <p class="mb-0 d-none d-sm-block"><i class="bi bi-bag me-1"></i>Compra mínima de $699</p>
+            <p class="mb-0"><i class="bi bi-shield-check me-1"></i>Pago seguro</p>
         </div>
-        <div id="ContenedorLogo">
-            <img id="logo" src="imagenes/logo.jpeg" width="60px" height="60px">
+        <!--Contenedor del logo-->
+        <div id="ContenedorLogo" class="container py-3">
+            <img id="logo" src="imagenes/logo.jpeg" alt="Logo Bip Bip Papel" width="200">
         </div>
     </header>
-    <main>
-        <!--Contenedor general del  de la imagen libretas-->>
-        <div id="container">
-            <div id="contenedorImagen">
-                <img id="libreta" src="imagenes/libretas.jpg" width="100px" height="100px">
-            </div>
-        </div>
 
-        <!--Contenedor general de nuestra historia-->
-        <div id="contenedorHistoria">
-            <p id="historia">NUESTRA HISTORIA</p>
-            <div id="TextoCreatividad">
-                <p>UN ESPACIO DONDE LA CREATIVIDAD COBRA VIDA</p>
-                <div id="descripcion">
-                    <p>ip Bip Papel nace de la pasión por la papelería y los pequeños detalles. Creemos que cada
-                        libreta, pluma y accesorio puede convertirse en una herramienta para expresar ideas, organizar
-                        sueños y crear momentos especiales. </p>
-                    <br>
-                    <p>Nuestra propuesta combina creatividad, calidad y elegancia, ofreciendo productos de papelería que
-                        inspiran, acompañan y permiten expresar tu personalidad</p>
+    <main>
+        <!--Sección ¿Quiénes somos?-->
+        <section id="container" class="container my-4">
+            <div class="row align-items-center g-4">
+                <div id="contenedorImagen" class="col-md-6">
+                    <img id="libreta" src="imagenes/qsbipbip.png" alt="Libretas Bip Bip Papel" class="img-fluid">
+                </div>
+
+                <div id="contenedorHistoria" class="col-md-6">
+                    <p id="historia" class="etiqueta">¿QUIÉNES SOMOS?</p>
+                    <div id="TextoCreatividad">
+                        <h1 class="titulo-serif">Un espacio donde la creatividad cobra vida</h1>
+                        <div id="descripcion">
+                            <p>Bip Bip Papel nace de la pasión por la papelería y los pequeños detalles. Creemos que
+                                cada libreta, pluma y accesorio puede convertirse en una herramienta para expresar
+                                ideas, organizar sueños y crear momentos especiales.</p>
+                            <p>Nuestra propuesta combina creatividad, calidad y elegancia, ofreciendo productos de
+                                papelería que inspiran, acompañan y permiten expresar tu personalidad.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!--contender para mostrar nuestra historia y nuestra mision-->
-        <div id="mision">
-            <h3 id="tituloMision">
-                NUESTRA MISIION
-            </h3>
-            <p id="descripcionMision">
-                nspirar la creatividad y organización de las personas a través de productos de papelería, regalos e<br>
-                ideas con diseño, calidad y significado.
-            </p>
-        </div>
-        <!--contenedor para mostrar vision-->
-        <div id="vision">
-            <h3 id="tituloVision">
-                NUESTRA VISIÓN
-            </h3>
-            <p id="descripcionVision">
-                er una tienda reconocida por ofrecer artículos de papelería originales y de calidad, convirtiéndonos en
-                <br>
-                una fuente de inspiración para quienes disfrutan crear, organizar y regalar.
-            </p>
-        </div>
+        <!--Misión y visión-->
+        <section class="row g-0">
+            <div id="mision" class="col-md-6 p-4 p-lg-5">
+                <h3 id="tituloMision" class="etiqueta d-flex align-items-center gap-2">
+                    <span class="icono-circulo"><i class="bi bi-bullseye"></i></span>
+                    NUESTRA MISIÓN
+                </h3>
+                <p id="descripcionMision">
+                    Inspirar la creatividad y organización de las personas a través de productos de papelería, regalos
+                    e ideas con diseño, calidad y significado.
+                </p>
+            </div>
+            <div id="vision" class="col-md-6 p-4 p-lg-5">
+                <h3 id="tituloVision" class="etiqueta d-flex align-items-center gap-2">
+                    <span class="icono-circulo"><i class="bi bi-eye"></i></span>
+                    NUESTRA VISIÓN
+                </h3>
+                <p id="descripcionVision">
+                    Ser una tienda reconocida por ofrecer artículos de papelería originales y de calidad,
+                    convirtiéndonos en una fuente de inspiración para quienes disfrutan crear, organizar y regalar.
+                </p>
+            </div>
+        </section>
 
-        <!--Contendedores de imagenes de perfil del equipo-->
-        <div id="contenedorPerfiles">
-            <div>
-                <img src="imagenes/daniel.jpg" width="50px" height="50px">
-               <a href="https://www.linkedin.com/in/danielmirandaayala/"> <p>Daniel Miranda Ayala (PRODUCT OWNER)</p></a>
-            </div>
-            <div>
-                <img src="imagenes/hector.jpg" width="50px" height="50px">
-                <a href="https://www.linkedin.com/in/hectorsanchezarroyo/"><p>Héctor Adrian Sánchez Arroyo (Scrum Master)</p></a>
-            </div>
-            <div>
-                <img src="imagenes/misael.jpg" width="50px" height="50px">
-              <a href="https://www.linkedin.com/in/misael-vivian"> <p>Ruben Misael Olguin Vivian (Líder Técnico)</p></a> 
-            </div>
-            <div>
-                <img src="imagenes/ceci.jpg" width="50px" height="50px">
-               <a href="https://www.linkedin.com/in/paula-cecilia-velazquez-ortiz"> <p>Paola Cecilia Velazquez Ortiz (team developer)</p></a>
-            </div>
-            <div>
-                <img src="imagenes/iris.png" width="50px" height="50px">
-              <a href="https://www.linkedin.com/in/iris-carina-lora-rivera/"> <p>Iris Carina Lora Rivera (team developer)</p></a>
-            </div>
-            <div>
-                <img src="imagenes/teresa.png" width="50px" height="50px">
-              <a href="https://www.linkedin.com/in/teresa-erandi-mejía-pascual-80a5a1313"><p>Teresa Erandi Mejía Pascual(team developer)</p></a>
-            </div>
-            <div>
-                <img src="imagenes/axel.png" width="50px" height="50px">
-                <a href="https://www.linkedin.com/in/axeelgarcia/"> <p>Axeel Yahir Garcia Rodríguez(team developer)</p></a>
-            </div>
-        </div>
+        <!--Equipo-->
+        <section class="container my-5">
+            <h4 class="titulo-seccion">NUESTRO EQUIPO</h4>
+            <p class="text-center subtitulo mb-4">Detrás de Bip Bip Papel hay un equipo que combina creatividad,
+                tecnología y pasión.</p>
 
-        <!--Contenedor Nuestros valores-->
-        <div id="nuestrosValores">
-            <h4 id="nuestrosValoresh4" style="text-align: center;">NUESTROS VALORES </h4>
-            <h5 id="unicos" style="text-align: center;">Lo que nos hace únicos</h5>
-        </div>
+            <div id="contenedorPerfiles" class="row justify-content-center g-4">
+                <div class="col-6 col-md-3">
+                    <a class="tarjeta-perfil" href="https://www.linkedin.com/in/danielmirandaayala/" target="_blank">
+                        <img src="imagenes/daniel.jpg" alt="Daniel Miranda Ayala">
+                        <p class="nombre">Daniel Miranda Ayala</p>
+                        <p class="rol">Product Owner</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a class="tarjeta-perfil" href="https://www.linkedin.com/in/teresa-erandi-mejía-pascual-80a5a1313" target="_blank">
+                        <img src="imagenes/teresa.png" alt="Teresa Erandi Mejía Pascual">
+                        <p class="nombre">Teresa Erandi Mejía Pascual</p>
+                        <p class="rol">Team Developer</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a class="tarjeta-perfil" href="https://www.linkedin.com/in/hectorsanchezarroyo/" target="_blank">
+                        <img src="imagenes/hector.jpg" alt="Héctor Adrián Sánchez Arroyo">
+                        <p class="nombre">Héctor Adrián Sánchez Arroyo</p>
+                        <p class="rol">Scrum Master</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a class="tarjeta-perfil" href="https://www.linkedin.com/in/paula-cecilia-velazquez-ortiz" target="_blank">
+                        <img src="imagenes/ceci.jpg" alt="Paola Cecilia Velázquez Ortiz">
+                        <p class="nombre">Paola Cecilia Velázquez Ortiz</p>
+                        <p class="rol">Team Developer</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a class="tarjeta-perfil" href="https://www.linkedin.com/in/axeelgarcia/" target="_blank">
+                        <img src="imagenes/axel.png" alt="Axeel Yahir García Rodríguez">
+                        <p class="nombre">Axeel Yahir García Rodríguez</p>
+                        <p class="rol">Team Developer</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a class="tarjeta-perfil" href="https://www.linkedin.com/in/iris-carina-lora-rivera/" target="_blank">
+                        <img src="imagenes/iris.png" alt="Iris Carina Lora Rivera">
+                        <p class="nombre">Iris Carina Lora Rivera</p>
+                        <p class="rol">Team Developer</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a class="tarjeta-perfil" href="https://www.linkedin.com/in/misael-vivian" target="_blank">
+                        <img src="imagenes/misael.jpg" alt="Rubén Misael Olguín Vivian">
+                        <p class="nombre">Rubén Misael Olguín Vivian</p>
+                        <p class="rol">Líder Técnico</p>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <!--Contenedor de valores-->
-        <div id="ContenedorValores">
-            <div id="contenedorCalidad">
-                <h2>Calidad</h2>
-                <p>Seleccionamos cada artículo con cuidado para brindarte lo mejor.</p>
+        <!--Nuestros valores-->
+        <section class="container my-5">
+            <div id="nuestrosValores">
+                <h4 id="nuestrosValoresh4" class="titulo-seccion">NUESTROS VALORES</h4>
+                <h5 id="unicos" class="text-center subtitulo mb-4">Lo que nos hace únicos</h5>
             </div>
-            <div id="contenedorelegancia">
-                <h2>Elegancia</h2>
-                <p>Diseños y detalles que reflejan estilo, armonía y buen gusto.</p>
-            </div>
-            <div id="contenedorCreatividad">
-                <h2>Creatividad</h2>
-                <p>Fomentamos nuevas ideas y espacios para dejar volar tu imaginación.</p>
-            </div>
-            <div id="contenedorAtencion">
-                <h2>Atencion</h2>
-                <p>Te acompañamos con cercanía y dedicación para brindarte una experiencia especial.</p>
-            </div>
-            <div id="contenedorCompromiso">
-                <h2>Compromiso</h2>
-                <p>Trabajamos para ofrecerte productos de calidad y cumplir con tus expectativas.</p>
-            </div>
-        </div>
-        <!--Contenerdor Propuesta de valor-->
-        <div id="ContenerdorPropuesta">
-            <div id="propuestaDeValor">
-                <p>PROPUESTA DE VALOR</p>
-                <br>
-                <p>¿Por qué elegir BIP BIP PAPEL</p>
-            </div>
-            <!--Contenedor para mostrar la prupuesta de valores-->
-            <div id="contendorPrupuestaValoresImagenes">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="icon icon-tabler icons-tabler-outline icon-tabler-archive-restore">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M3 6a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2" />
-                    <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-                    <path d="M12 16v-4" />
-                    <path d="M10 14l2 -2l2 2" />
-                </svg>
 
-                <!--Imagenes de referencia a nuestros valores-->
-                <img src="imagenes/cuaderno.jpg" width="150px" height="50px">
-                <img src="imagenes/calidad.jpg" width="150px" height="50px">
-                <img src="imagenes/regalo.png" width="150px" height="50px">
-                <img src="imagenes/carrito.jpg" width="150px" height="50px">
-
+            <div id="ContenedorValores" class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4 text-center">
+                <div id="contenedorCalidad" class="col valor">
+                    <span class="icono-circulo"><i class="bi bi-award"></i></span>
+                    <h2>Calidad</h2>
+                    <p>Seleccionamos cada artículo con cuidado para brindarte lo mejor.</p>
+                </div>
+                <div id="contenedorelegancia" class="col valor">
+                    <span class="icono-circulo"><i class="bi bi-star"></i></span>
+                    <h2>Elegancia</h2>
+                    <p>Diseños y detalles que reflejan estilo, armonía y buen gusto.</p>
+                </div>
+                <div id="contenedorCreatividad" class="col valor">
+                    <span class="icono-circulo"><i class="bi bi-brightness-high"></i></span>
+                    <h2>Creatividad</h2>
+                    <p>Fomentamos nuevas ideas y espacios para dejar volar tu imaginación.</p>
+                </div>
+                <div id="contenedorAtencion" class="col valor">
+                    <span class="icono-circulo"><i class="bi bi-heart"></i></span>
+                    <h2>Atención</h2>
+                    <p>Te acompañamos con cercanía y dedicación para brindarte una experiencia especial.</p>
+                </div>
+                <div id="contenedorCompromiso" class="col valor">
+                    <span class="icono-circulo"><i class="bi bi-shield-check"></i></span>
+                    <h2>Compromiso</h2>
+                    <p>Trabajamos para ofrecerte productos de calidad y cumplir con tus expectativas.</p>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <!--Propuesta de valor-->
+        <section id="ContenerdorPropuesta" class="py-5">
+            <div class="container">
+                <div id="propuestaDeValor" class="text-center mb-4">
+                    <p class="titulo-seccion titulo-seccion-claro mb-2">PROPUESTA DE VALOR</p>
+                    <h3 class="titulo-serif">¿Por qué elegir Bip Bip Papel?</h3>
+                </div>
+
+                <div id="contendorPrupuestaValoresImagenes" class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
+                    <div class="col">
+                        <div class="tarjeta-propuesta">
+                            <img src="imagenes/cuaderno.jpg" alt="Diseños originales">
+                            <div>
+                                <h6>DISEÑOS ORIGINALES</h6>
+                                <p>Artículos que inspiran tu creatividad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tarjeta-propuesta">
+                            <img src="imagenes/calidad.jpg" alt="Calidad garantizada">
+                            <div>
+                                <h6>CALIDAD GARANTIZADA</h6>
+                                <p>Productos seleccionados cuidadosamente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tarjeta-propuesta">
+                            <img src="imagenes/regalo.png" alt="Detalles especiales">
+                            <div>
+                                <h6>DETALLES ESPECIALES</h6>
+                                <p>Papelería para expresar tu personalidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tarjeta-propuesta">
+                            <img src="imagenes/carrito.jpg" alt="Compra fácil y segura">
+                            <div>
+                                <h6>COMPRA FÁCIL Y SEGURA</h6>
+                                <p>Una experiencia sencilla y confiable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
         <!--Contenedor general de footer-->
-        <div id="contenedorFooter">
-            <p id="piePagina" style="text-align: center;">Pie de página</p>
+        <div id="contenedorFooter" class="py-4">
+            <p id="piePagina" class="text-center mb-0">Bip Bip Papel</p>
         </div>
     </footer>
-    <!--importasión archivo JS boostrap -->
+
+    <!--Importación archivo JS Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
