@@ -1,0 +1,161 @@
+
+
+root {
+  --color-primario: #3498db;
+  --fuente-principal: 'Arial', sans-serif;
+  --espaciado: 16px;
+  --color-principal: #183D30;
+  --color-secundario: #E8D8C3;
+  --color-fondo: #F7F3EB;
+  --color-detalles: #C5A477;
+  --color-detalles: #A5B09A;
+  --color-texto: #292B27;
+}
+
+
+/* Fondo y tipografía */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: 'Inter', sans-serif; /* Esperar a cambios*/
+    margin: 0; 
+}
+
+/* Contenedor principal */
+main {
+    max-width: 850px;
+    margin: 55px auto;
+    padding: 45px 55px;
+    background-color: var(--color-secundario);
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(35, 69, 54, 0.08);
+}
+
+/* Título */
+main > h2 {
+    color: var(--color-primario);
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* Descripción */
+main > p {
+    color: var(--color-texto);
+    font-size: 0.98rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Etiquetas */
+.form-label {
+    display: block;
+    color: var(--color-primario);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+/* Campos de entrada */
+.form-control {
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 16px;
+    margin-bottom: 17px;
+
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-detalles);
+    border-radius: 9px;
+
+    color: var(--color-texto);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease,
+                background-color 0.3s ease;
+}
+
+/* Texto de los placeholders */
+.form-control::placeholder {
+    color: #A5B09A;
+    opacity: 1;
+}
+
+/* Cuando el usuario selecciona un campo */
+.form-control:focus {
+    background-color: var(--color-secundario);
+    border-color: var(--color-primario);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.13);
+    outline: none;
+}
+
+/* Área de mensaje */
+textarea.form-control {
+    min-height: 150px;
+    resize: vertical;
+}
+
+/* Mensaje de confirmación */
+main > .alert-success {
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-detalles);
+    border-radius: 9px;
+    color: var(--color-primario);
+    padding: 15px 18px;
+    margin-top: 15px;
+}
+
+/* Botón de cerrar alerta */
+.alert .btn-close {
+    opacity: 0.6;
+}
+
+.alert .btn-close:hover {
+    opacity: 1;
+}
+
+/* responsivo */
+
+@media (max-width: 768px) {
+
+    main {
+        width: calc(100% - 30px);
+        margin: 30px auto;
+        padding: 30px 22px;
+        border-radius: 14px;
+    }
+
+    main > h2 {
+        font-size: 1.9rem;
+    }
+
+    main > p {
+        font-size: 0.9rem;
+    }
+
+    .form-control {
+        min-height: 46px;
+    }
+
+    textarea.form-control {
+        min-height: 130px;
+    }
+}
+
+/* Pantallas pequeñas */
+@media (max-width: 400px) {
+
+    main {
+        padding: 25px 17px;
+    }
+
+    main > h2 {
+        font-size: 1.7rem;
+    }
+
+    .form-label {
+        font-size: 0.9rem;
+    }
+}
