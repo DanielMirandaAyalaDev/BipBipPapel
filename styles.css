@@ -1,0 +1,171 @@
+
+/* ====================================
+   HEADER - BIP BIP PAPEL
+   Paso 1: Barra informativa superior
+==================================== */
+
+/* Contenedor principal del encabezado */
+header {
+    width: 100%;
+}
+
+/* Barra informativa */
+#ContenedorHeader {
+    background-color: #183D30;
+    color: #E8D8C3;
+
+    width: 100%;
+    min-height: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 15px;
+}
+
+/* Texto de la barra informativa */
+#ContenedorHeader p {
+    margin: 0;
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+/* ===================================
+   BARRA DE NAVEGACIÓN - BIP BIP PAPEL
+=================================== */
+
+/* Contenedor del logotipo */
+#ContenedorLogo {
+    background-color: #E8D8C3;
+    width: 100%;
+    min-height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 12px 5%;
+}
+
+/* Imagen del logotipo */
+#logo {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 576px) {
+    #ContenedorLogo {
+        min-height: 75px;
+        padding: 10px 20px;
+    }
+
+    #logo {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+   FOOTER GENERAL - BIP BIP PAPEL
+====================================== */
+
+/* Contenedor principal */
+footer {
+    background-color: #183D30;
+    color: #E8D8C3;
+    width: 100%;
+    padding: 45px 5% 25px;
+}
+
+/* Texto superior del footer */
+#ContenedorFooter {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Texto Pie de página */
+#piePagina {
+    color: #E8D8C3;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Distribución de columnas */
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+/* Encabezados de columnas */
+footer h5 {
+    color: #E8D8C3;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Textos y enlaces */
+footer p {
+    color: #F7F3EB;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/* Iconos SVG */
+footer svg {
+    color: #E8D8C3;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto visual al pasar el cursor */
+footer svg:hover {
+    color: #C5A477;
+    transform: scale(1.15);
+}
+
+/* Adaptación para celulares */
+@media (max-width: 576px) {
+
+    footer {
+        padding: 35px 20px;
+    }
+
+    footer .row {
+        row-gap: 25px;
+    }
+
+    footer h5 {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
