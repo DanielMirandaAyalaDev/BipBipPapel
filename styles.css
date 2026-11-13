@@ -60,6 +60,15 @@ header {
     object-fit: contain;
     border-radius: 8px;
 }
+/*Estilo del boton en el formulario de contacto*/
+#btnformEnviarContacto{
+     background-color: #183D30;
+     color: white;
+     width: 70px;
+     height: 50px;
+   
+
+}
 
 /* Adaptación a celulares */
 @media (max-width: 576px) {
