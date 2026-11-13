@@ -1,6 +1,12 @@
+/* Contenedor principal del encabezado */
+header {
+    width: 100%;
+}
+/* ==========================================
+   COLORES GENERALES - BIP BIP PAPEL
+========================================== */
 
-
-root {
+:root {
   --color-primario: #3498db;
   --fuente-principal: 'Arial', sans-serif;
   --espaciado: 16px;
@@ -11,7 +17,14 @@ root {
   --color-detalles: #A5B09A;
   --color-texto: #292B27;
 }
-
+/* ==========================================
+   CONFIGURACIÓN GENERAL
+========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Fondo y tipografía */
 body {
@@ -21,19 +34,193 @@ body {
     margin: 0; 
 }
 
-/* Contenedor principal */
-main {
-    max-width: 850px;
-    margin: 55px auto;
-    padding: 45px 55px;
-    background-color: var(--color-secundario);
-    border-radius: 18px;
-    box-shadow: 0 8px 30px rgba(35, 69, 54, 0.08);
+/* Barra informativa */
+#ContenedorHeader {
+    background-color: #183D30;
+    color: #E8D8C3;
+
+    width: 100%;
+    min-height: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 15px;
 }
 
+/* Texto de la barra informativa */
+#ContenedorHeader p {
+    margin: 0;
+    text-align: center;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+/* ====================================
+   HEADER - BIP BIP PAPEL
+   Paso 1: Barra informativa superior
+==================================== */
+/* BARRA SUPERIOR */
+
+.top-bar {
+    width: 100%;
+    min-height: 36px;
+
+    background-color: #183D30;
+    color: #E8D8C3;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 8px 15px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.top-item {
+    text-align: center;
+}
+
+/* ===================================
+   BARRA DE NAVEGACIÓN - BIP BIP PAPEL
+=================================== */
+
+/* Contenedor del logotipo */
+#ContenedorLogo {
+    background-color: #E8D8C3;
+    width: 100%;
+    min-height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 12px 5%;
+}
+
+/* Imagen del logotipo */
+#logo {
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 8px;
+    background-color: transparent;
+    mix-blend-mode: multiply;
+    margin-left: 25px;
+}
+
+header {
+    width: 100%;
+}
+
+/* ==========================================
+   BARRA DE NAVEGACIÓN
+========================================== */
+#contenedorNavBar {
+    width: 100%;
+    background-color: #E8D8C3;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 110px;
+
+    padding: 12px 5%;
+}
+
+/* MENÚ */
+
+.navbar-nav {
+    gap: 18px;
+}
+
+.navbar-nav .nav-link {
+    color: var(--texto);
+
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--verde);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--verde);
+    font-weight: 600;
+}
+
+/* ==========================================
+   BUSCADOR
+========================================== */
+
+.navbar form {
+    gap: 8px;
+}
+
+.navbar .form-control {
+    width: 220px;
+    height: 42px;
+
+    background-color: #FFFFFF;
+    color: var(--texto);
+
+    border: 1px solid #D5D0C7;
+    border-radius: 8px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.navbar .form-control:focus {
+    background-color: #FFFFFF;
+    border-color: var(--verde);
+    box-shadow: 0 0 0 0.15rem rgba(24, 61, 48, 0.15);
+}
+
+/* BOTÓN BUSCAR */
+
+.navbar .btn-outline-success {
+    height: 42px;
+
+    color: var(--verde);
+    border-color: var(--verde);
+    border-radius: 8px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: var(--verde);
+    color: #FFFFFF;
+    border-color: var(--verde);
+}
+
+/* BOTÓN MENÚ CELULAR */
+
+.navbar-toggler {
+    border-color: var(--verde);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.15rem rgba(24, 61, 48, 0.2);
+}
+    
 /* Título */
 main > h2 {
-    color: var(--color-primario);
+    color: #292B27;
     font-family: 'Playfair Display', serif;
     font-size: 2.3rem;
     font-weight: 700;
@@ -159,3 +346,95 @@ main > .alert-success {
         font-size: 0.9rem;
     }
 }
+
+
+/* ======================================
+   FOOTER GENERAL - BIP BIP PAPEL
+====================================== */
+
+/* Contenedor principal */
+footer {
+    background-color: #183D30;
+    color: #E8D8C3;
+    width: 100%;
+    padding: 45px 5% 25px;
+}
+
+/* Texto superior del footer */
+#ContenedorFooter {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Texto Pie de página */
+#piePagina {
+    color: #E8D8C3;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Distribución de columnas */
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+/* Encabezados de columnas */
+footer h5 {
+    color: #E8D8C3;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Textos y enlaces */
+footer p {
+    color: #F7F3EB;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+/* Iconos SVG */
+footer svg {
+    color: #E8D8C3;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto visual al pasar el cursor */
+footer svg:hover {
+    color: #C5A477;
+    transform: scale(1.15);
+}
+
+/* Adaptación para celulares */
+@media (max-width: 576px) {
+
+    footer {
+        padding: 35px 20px;
+    }
+
+    footer .row {
+        row-gap: 25px;
+    }
+
+    footer h5 {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+    #logo {
+        width: 100px;
+        height: 85px;
+    }
+}
+
