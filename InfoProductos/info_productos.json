@@ -1,0 +1,164 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Papelería",
+        "productos": [
+          { "id": 1, "nombre": "Cuaderno Premium A5", "precio": 189, "descripcion": "Cuaderno de pasta dura con acabado minimalista", "stock": 25, "imagen": "../imagenes/ImagenesProductos/1.jpg" },
+          { "id": 2, "nombre": "Agenda Ejecutiva 2026", "precio": 349, "descripcion": "Agenda anual con diseño elegante y planeación semanal", "stock": 15, "imagen": "../imagenes/ImagenesProductos/2.jpg" },
+          { "id": 3, "nombre": "Set de Libretas Pastel", "precio": 129, "descripcion": "Set de tres libretas en tonos pastel", "stock": 30, "imagen": "../imagenes/ImagenesProductos/3.jpg" },
+          { "id": 4, "nombre": "Diario de Gratitud", "precio": 229, "descripcion": "Diario con prompts para reflexión y bienestar", "stock": 18, "imagen": "../imagenes/ImagenesProductos/4.jpg" },
+          { "id": 5, "nombre": "Bloc de Notas Minimalista", "precio": 89, "descripcion": "Bloc de notas con hojas desprendibles", "stock": 40, "imagen": "../imagenes/ImagenesProductos/5.jpg" },
+          { "id": 6, "nombre": "Cuaderno de Puntos", "precio": 159, "descripcion": "Cuaderno punteado para bullet journal", "stock": 22, "imagen": "../imagenes/ImagenesProductos/6.jpg" },
+          { "id": 7, "nombre": "Planner de Escritorio", "precio": 199, "descripcion": "Planificador semanal para organizar tareas", "stock": 20, "imagen": "../imagenes/ImagenesProductos/7.jpg" },
+          { "id": 8, "nombre": "Tarjetas de Correspondencia", "precio": 149, "descripcion": "Set de tarjetas premium con sobres", "stock": 35, "imagen": "../imagenes/ImagenesProductos/8.jpg" },
+          { "id": 9, "nombre": "Libro de Bocetos", "precio": 179, "descripcion": "Sketchbook de papel grueso para dibujo", "stock": 12, "imagen": "../imagenes/ImagenesProductos/9.jpg" },
+          { "id": 10, "nombre": "Notas Adhesivas Elegantes", "precio": 79, "descripcion": "Set de notas adhesivas en colores neutros", "stock": 50, "imagen": "../imagenes/ImagenesProductos/10.jpg" }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Plumas y Escritura",
+        "productos": [
+          { "id": 11, "nombre": "Pluma Fuente Dorada", "precio": 399, "descripcion": "Pluma fuente metálica con detalles dorados", "stock": 10, "imagen": "../imagenes/ImagenesProductos/11.jpg" },
+          { "id": 12, "nombre": "Bolígrafo Minimalista Negro", "precio": 149, "descripcion": "Bolígrafo de tinta negra con cuerpo metálico", "stock": 25, "imagen": "../imagenes/ImagenesProductos/12.jpg" },
+          { "id": 13, "nombre": "Set de Plumas Gel", "precio": 119, "descripcion": "Set de seis plumas de gel de colores", "stock": 30, "imagen": "../imagenes/ImagenesProductos/13.jpg" },
+          { "id": 14, "nombre": "Pluma de Caligrafía", "precio": 279, "descripcion": "Pluma especial para lettering y caligrafía", "stock": 12, "imagen": "../imagenes/ImagenesProductos/14.jpg" },
+          { "id": 15, "nombre": "Marcadores Pastel", "precio": 169, "descripcion": "Set de seis marcadores en tonos pastel", "stock": 20, "imagen": "../imagenes/ImagenesProductos/15.jpg" },
+          { "id": 16, "nombre": "Lápices HB Premium", "precio": 89, "descripcion": "Set de cinco lápices de grafito", "stock": 40, "imagen": "../imagenes/ImagenesProductos/16.jpg" },
+          { "id": 17, "nombre": "Portaminas Metálico", "precio": 129, "descripcion": "Portaminas de precisión con acabado satinado", "stock": 15, "imagen": "../imagenes/ImagenesProductos/17.jpg" },
+          { "id": 18, "nombre": "Set de Lettering", "precio": 249, "descripcion": "Kit de escritura creativa y lettering", "stock": 8, "imagen": "../imagenes/ImagenesProductos/18.jpg" },
+          { "id": 19, "nombre": "Pluma Roller Azul", "precio": 189, "descripcion": "Pluma roller de tinta azul de flujo suave", "stock": 18, "imagen": "../imagenes/ImagenesProductos/19.jpg" },
+          { "id": 20, "nombre": "Set de Plumas Multicolor", "precio": 139, "descripcion": "Set de diez bolígrafos de colores vibrantes", "stock": 25, "imagen": "../imagenes/ImagenesProductos/20.jpg" }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Regalos",
+        "productos": [
+          { "id": 21, "nombre": "Caja de Regalo Premium", "precio": 299, "descripcion": "Caja rígida con listón para ocasiones especiales", "stock": 15, "imagen": "ruta pendiente" },
+          { "id": 22, "nombre": "Taza de Cerámica Minimalista", "precio": 219, "descripcion": "Taza artesanal en tonos neutros", "stock": 20, "imagen": "ruta pendiente" },
+          { "id": 23, "nombre": "Vela Aromática", "precio": 259, "descripcion": "Vela perfumada de cera vegetal", "stock": 18, "imagen": "ruta pendiente" },
+          { "id": 24, "nombre": "Kit de Autocuidado", "precio": 449, "descripcion": "Kit de regalo con productos relajantes", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 25, "nombre": "Caja de Chocolates Artesanales", "precio": 329, "descripcion": "Selección de chocolates gourmet", "stock": 12, "imagen": "ruta pendiente" },
+          { "id": 26, "nombre": "Marco Fotográfico Dorado", "precio": 189, "descripcion": "Marco elegante para fotografías de 10x15 cm", "stock": 22, "imagen": "ruta pendiente" },
+          { "id": 27, "nombre": "Florero de Vidrio", "precio": 279, "descripcion": "Florero decorativo de diseño contemporáneo", "stock": 14, "imagen": "ruta pendiente" },
+          { "id": 28, "nombre": "Peluches Premium", "precio": 349, "descripcion": "Peluche suave con diseño minimalista", "stock": 8, "imagen": "ruta pendiente" },
+          { "id": 29, "nombre": "Set de Regalo Relax", "precio": 399, "descripcion": "Set con taza, vela y tarjeta de regalo", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 30, "nombre": "Tarjeta de Regalo Digital", "precio": 500, "descripcion": "Tarjeta de regalo con saldo de 500 pesos", "stock": 100, "imagen": "ruta pendiente" }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Accesorios de Escritorio",
+        "productos": [
+          { "id": 31, "nombre": "Organizador de Escritorio", "precio": 329, "descripcion": "Organizador de madera con compartimentos", "stock": 12, "imagen": "ruta pendiente" },
+          { "id": 32, "nombre": "Portaplumas de Cerámica", "precio": 149, "descripcion": "Portalápices de cerámica en acabado mate", "stock": 20, "imagen": "ruta pendiente" },
+          { "id": 33, "nombre": "Mousepad de Cuero Sintético", "precio": 229, "descripcion": "Mousepad elegante en color beige", "stock": 15, "imagen": "ruta pendiente" },
+          { "id": 34, "nombre": "Lámpara de Escritorio", "precio": 599, "descripcion": "Lámpara LED de diseño moderno", "stock": 8, "imagen": "ruta pendiente" },
+          { "id": 35, "nombre": "Sujetador de Libros", "precio": 279, "descripcion": "Par de sujetalibros metálicos decorativos", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 36, "nombre": "Calendario Perpetuo", "precio": 249, "descripcion": "Calendario de escritorio reutilizable", "stock": 18, "imagen": "ruta pendiente" },
+          { "id": 37, "nombre": "Bandeja Organizadora", "precio": 199, "descripcion": "Bandeja para documentos y accesorios", "stock": 25, "imagen": "ruta pendiente" },
+          { "id": 38, "nombre": "Soporte para Celular", "precio": 169, "descripcion": "Soporte de escritorio de aluminio", "stock": 20, "imagen": "ruta pendiente" },
+          { "id": 39, "nombre": "Mini Reloj de Escritorio", "precio": 349, "descripcion": "Reloj compacto de estilo vintage", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 40, "nombre": "Cojín para Muñeca", "precio": 129, "descripcion": "Apoyo ergonómico para teclado", "stock": 15, "imagen": "ruta pendiente" }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Arte y Creatividad",
+        "productos": [
+          { "id": 41, "nombre": "Set de Acuarelas", "precio": 349, "descripcion": "Paleta de 24 acuarelas para ilustración", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 42, "nombre": "Block de Papel Acuarela", "precio": 199, "descripcion": "Papel de algodón de textura fina", "stock": 18, "imagen": "ruta pendiente" },
+          { "id": 43, "nombre": "Set de Pinceles", "precio": 229, "descripcion": "Set de pinceles para pintura artística", "stock": 15, "imagen": "ruta pendiente" },
+          { "id": 44, "nombre": "Marcadores Artísticos", "precio": 499, "descripcion": "Set de 24 marcadores de doble punta", "stock": 8, "imagen": "rutruta pendientea" },
+          { "id": 45, "nombre": "Lápices de Colores", "precio": 279, "descripcion": "Set de 36 lápices de colores profesionales", "stock": 12, "imagen": "ruta pendiente" },
+          { "id": 46, "nombre": "Pinturas Acrílicas", "precio": 189, "descripcion": "Set de 12 pinturas acrílicas", "stock": 20, "imagen": "ruta pendiente" },
+          { "id": 47, "nombre": "Paleta para Pintura", "precio": 99, "descripcion": "Paleta reutilizable para mezclar colores", "stock": 25, "imagen": "ruta pendiente" },
+          { "id": 48, "nombre": "Kit de Origami", "precio": 149, "descripcion": "Papeles decorativos para origami", "stock": 22, "imagen": "ruta pendiente" },
+          { "id": 49, "nombre": "Kit de Scrapbooking", "precio": 299, "descripcion": "Kit con papeles, stickers y accesorios", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 50, "nombre": "Washi Tape Premium", "precio": 119, "descripcion": "Set de cintas decorativas japonesas", "stock": 30, "imagen": "ruta pendiente" }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Accesorios y Complementos",
+        "productos": [
+          { "id": 51, "nombre": "Separadores Magnéticos", "precio": 89, "descripcion": "Set de separadores magnéticos para libros", "stock": 35, "imagen": "ruta pendiente" },
+          { "id": 52, "nombre": "Llavero de Acrílico", "precio": 99, "descripcion": "Llavero con diseño elegante", "stock": 25, "imagen": "ruta pendiente" },
+          { "id": 53, "nombre": "Estuche de Tela Premium", "precio": 179, "descripcion": "Estuche con cierre y compartimentos", "stock": 18, "imagen": "ruta pendiente" },
+          { "id": 54, "nombre": "Clip Metálico Decorativo", "precio": 69, "descripcion": "Set de clips dorados para documentos", "stock": 50, "imagen": "ruta pendiente" },
+          { "id": 55, "nombre": "Pin Esmaltado", "precio": 129, "descripcion": "Pin decorativo de edición especial", "stock": 20, "imagen": "ruta pendiente" },
+          { "id": 56, "nombre": "Cinta de Satín", "precio": 79, "descripcion": "Cinta de satín para envolver regalos", "stock": 40, "imagen": "ruta pendiente" },
+          { "id": 57, "nombre": "Bolsa Tote de Algodón", "precio": 249, "descripcion": "Bolsa reutilizable con diseño exclusivo", "stock": 15, "imagen": "ruta pendiente" },
+          { "id": 58, "nombre": "Monedero Minimalista", "precio": 199, "descripcion": "Monedero compacto con acabado elegante", "stock": 12, "imagen": "ruta pendiente" },
+          { "id": 59, "nombre": "Paraguas Compacto", "precio": 329, "descripcion": "Paraguas plegable de diseño sofisticado", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 60, "nombre": "Porta Tarjetas", "precio": 149, "descripcion": "Porta tarjetas de piel sintética", "stock": 20, "imagen": "ruta pendiente" }
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Decoración",
+        "productos": [
+          { "id": 61, "nombre": "Figura Decorativa Abstracta", "precio": 399, "descripcion": "Figura de resina de estilo contemporáneo", "stock": 8, "imagen": "ruta pendiente" },
+          { "id": 62, "nombre": "Mini Maceta de Cerámica", "precio": 129, "descripcion": "Maceta decorativa para plantas pequeñas", "stock": 25, "imagen": "ruta pendiente" },
+          { "id": 63, "nombre": "Difusor de Aromas", "precio": 349, "descripcion": "Difusor para aromatizar espacios", "stock": 12, "imagen": "ruta pendiente" },
+          { "id": 64, "nombre": "Cuadro Decorativo", "precio": 499, "descripcion": "Arte minimalista para decoración interior", "stock": 6, "imagen": "ruta pendiente" },
+          { "id": 65, "nombre": "Guirnalda de Luces LED", "precio": 199, "descripcion": "Luces cálidas decorativas para interiores", "stock": 18, "imagen": "ruta pendiente" },
+          { "id": 66, "nombre": "Espejo de Mesa", "precio": 279, "descripcion": "Espejo compacto con marco dorado", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 67, "nombre": "Adorno de Cristal", "precio": 189, "descripcion": "Figura decorativa de cristal transparente", "stock": 14, "imagen": "ruta pendiente" },
+          { "id": 68, "nombre": "Reloj Decorativo", "precio": 599, "descripcion": "Reloj de pared de diseño minimalista", "stock": 5, "imagen": "ruta pendiente" },
+          { "id": 69, "nombre": "Bandeja de Mármol Sintético", "precio": 229, "descripcion": "Bandeja decorativa para accesorios", "stock": 15, "imagen": "ruta pendiente" },
+          { "id": 70, "nombre": "Portavelas Dorado", "precio": 159, "descripcion": "Portavelas metálico con acabado dorado", "stock": 20, "imagen": "ruta pendiente" }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Empaque y Envoltura",
+        "productos": [
+          { "id": 71, "nombre": "Papel de Regalo Floral", "precio": 89, "descripcion": "Papel premium con estampado floral", "stock": 30, "imagen": "ruta pendiente" },
+          { "id": 72, "nombre": "Papel Kraft Premium", "precio": 69, "descripcion": "Papel kraft para envoltura elegante", "stock": 40, "imagen": "ruta pendiente" },
+          { "id": 73, "nombre": "Bolsas de Regalo Boutique", "precio": 129, "descripcion": "Set de bolsas con asas y acabado premium", "stock": 25, "imagen": "ruta pendiente" },
+          { "id": 74, "nombre": "Set de Moños Decorativos", "precio": 99, "descripcion": "Set de moños de satín para regalos", "stock": 35, "imagen": "ruta pendiente" },
+          { "id": 75, "nombre": "Etiquetas para Regalo", "precio": 59, "descripcion": "Etiquetas con diseño minimalista", "stock": 50, "imagen": "ruta pendiente" },
+          { "id": 76, "nombre": "Papel Seda Colores Neutros", "precio": 79, "descripcion": "Papel seda en tonos beige y crema", "stock": 30, "imagen": "ruta pendiente" },
+          { "id": 77, "nombre": "Caja de Cartón Rígido", "precio": 149, "descripcion": "Caja resistente con acabado mate", "stock": 20, "imagen": "ruta pendiente" },
+          { "id": 78, "nombre": "Cinta Decorativa", "precio": 69, "descripcion": "Cinta para envoltura en colores elegantes", "stock": 40, "imagen": "ruta pendiente" },
+          { "id": 79, "nombre": "Sellos de Cera", "precio": 189, "descripcion": "Kit de sellos para cartas y envolturas", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 80, "nombre": "Sobres Premium", "precio": 99, "descripcion": "Set de sobres de papel texturizado", "stock": 35, "imagen": "ruta pendiente" }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Libros y Lectura",
+        "productos": [
+          { "id": 81, "nombre": "Libro de Arte y Diseño", "precio": 549, "descripcion": "Libro ilustrado de inspiración creativa", "stock": 8, "imagen": "ruta" },
+          { "id": 82, "nombre": "Libro de Poesía", "precio": 249, "descripcion": "Antología de poesía contemporánea", "stock": 15, "imagen": "ruta pendiente" },
+          { "id": 83, "nombre": "Novela de Bolsillo", "precio": 199, "descripcion": "Novela para lectura cotidiana", "stock": 20, "imagen": "ruta pendiente" },
+          { "id": 84, "nombre": "Libro de Mindfulness", "precio": 299, "descripcion": "Guía de prácticas de atención plena", "stock": 12, "imagen": "ruta pendiente" },
+          { "id": 85, "nombre": "Libro de Jardinería", "precio": 349, "descripcion": "Guía ilustrada de plantas y jardines", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 86, "nombre": "Libro de Lettering", "precio": 279, "descripcion": "Guía práctica de lettering y tipografía", "stock": 14, "imagen": "ruta pendiente" },
+          { "id": 87, "nombre": "Libro de Recetas", "precio": 329, "descripcion": "Recetario de cocina creativa", "stock": 10, "imagen": "ruta pendiente" },
+          { "id": 88, "nombre": "Libro de Fotografía", "precio": 599, "descripcion": "Libro visual de técnicas fotográficas", "stock": 6, "imagen": "ruta pendiente" },
+          { "id": 89, "nombre": "Libro de Arquitectura", "precio": 649, "descripcion": "Colección de diseños arquitectónicos", "stock": 5, "imagen": "ruta pendiente" },
+          { "id": 90, "nombre": "Libro de Desarrollo Personal", "precio": 289, "descripcion": "Libro sobre hábitos y crecimiento personal", "stock": 18, "imagen": "ruta pendiente" }
+        ]
+      },
+      {
+        "id": 10,
+        "nombre": "Tarjetas y Detalles",
+        "productos": [
+          { "id": 91, "nombre": "Tarjeta de Cumpleaños Floral", "precio": 69, "descripcion": "Tarjeta ilustrada con acabado premium", "stock": 40, "imagen": "ruta pendiente" },
+          { "id": 92, "nombre": "Tarjeta de Agradecimiento", "precio": 59, "descripcion": "Tarjeta elegante para expresar gratitud", "stock": 50, "imagen": "ruta pendiente" },
+          { "id": 93, "nombre": "Tarjeta de Amor", "precio": 79, "descripcion": "Tarjeta romántica con diseño minimalista", "stock": 30, "imagen": "ruta pendiente" },
+          { "id": 94, "nombre": "Tarjeta de Graduación", "precio": 69, "descripcion": "Tarjeta para celebrar logros académicos", "stock": 25, "imagen": "ruta pendiente" },
+          { "id": 95, "nombre": "Tarjeta de Navidad", "precio": 89, "descripcion": "Tarjeta festiva con ilustración elegante", "stock": 40, "imagen": "ruta pendiente" },
+          { "id": 96, "nombre": "Set de Mini Tarjetas", "precio": 99, "descripcion": "Set de diez tarjetas para pequeños mensajes", "stock": 25, "imagen": "ruta pendiente" },
+          { "id": 97, "nombre": "Tarjeta con Sobre Dorado", "precio": 109, "descripcion": "Tarjeta premium con sobre de acabado metálico", "stock": 20, "imagen": "ruta pendiente" },
+          { "id": 98, "nombre": "Tags para Regalo", "precio": 49, "descripcion": "Set de etiquetas decorativas para regalos", "stock": 60, "imagen": "ruta pendiente" },
+          { "id": 99, "nombre": "Postales Artísticas", "precio": 119, "descripcion": "Set de cinco postales ilustradas", "stock": 15, "imagen": "ruta pendiente" },
+          { "id": 100, "nombre": "Tarjeta de Mensaje Personalizado", "precio": 129, "descripcion": "Tarjeta personalizable para ocasiones especiales", "stock": 20, "imagen": "ruta pendiente" }
+        ]
+      }
+    ]
+  }
