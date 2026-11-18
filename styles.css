@@ -83,7 +83,22 @@ header {
     }
 }
 
+.mensajeError {
+  color: #d93025;
+  font-size: 0.85rem;
+  display: block;
+  margin-top: 4px;
+  min-height: 18px; /* Evita que el formulario salte al aparecer el texto */
+}
 
+.input-invalido {
+  border: 2px solid #d93025;
+  outline: none;
+}
+
+.input-valido {
+  border: 2px solid #188038;
+}
 
 
 
