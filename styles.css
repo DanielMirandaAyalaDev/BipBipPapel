@@ -1,180 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@400;500&display=swap');
 
-/* ====================================
-   HEADER - BIP BIP PAPEL
-   Paso 1: Barra informativa superior
-==================================== */
+:root {
+    --verde-bosque: #183D30;
+    --champagne: #E8D8C3;
+    --marfil: #F7F3EB;
+    --dorado-suave: #C5A477;
+    --verde-salvia: #A5B09A;
+    --beige-arena: #D8C5AC;
+    --carbon: #292B27;
 
-/* Contenedor principal del encabezado */
-header {
-    width: 100%;
+    --margen-lateral: 8%;
 }
 
-/* Barra informativa */
-#ContenedorHeader {
-    background-color: #183D30;
-    color: #E8D8C3;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    width: 100%;
-    min-height: 36px;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    background-color: var(--marfil);
+    color: var(--carbon);
+    font-family: 'Inter', sans-serif;
+}
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 2rem var(--margen-lateral);
+}
+
+/* ---------- Header ---------- */
+header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    padding: 8px 15px;
-}
-
-/* Texto de la barra informativa */
-#ContenedorHeader p {
-    margin: 0;
-    text-align: center;
-
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1.5;
-}
-
-
-/* ===================================
-   BARRA DE NAVEGACIÓN - BIP BIP PAPEL
-=================================== */
-
-/* Contenedor del logotipo */
-#ContenedorLogo {
-    background-color: #E8D8C3;
-    width: 100%;
-    min-height: 90px;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
-    padding: 12px 5%;
-}
-
-/* Imagen del logotipo */
-#logo {
-    width: 75px;
-    height: 75px;
-    object-fit: contain;
-    border-radius: 8px;
-}
-/*Estilo del boton en el formulario de contacto*/
-#btnformEnviarContacto{
-     background-color: #183D30;
-     color: white;
-     width: 70px;
-     height: 50px;
-   
-
-}
-
-/* Adaptación a celulares */
-@media (max-width: 576px) {
-    #ContenedorLogo {
-        min-height: 75px;
-        padding: 10px 20px;
-    }
-
-    #logo {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-/* ======================================
-   FOOTER GENERAL - BIP BIP PAPEL
-====================================== */
-
-/* Contenedor principal */
-footer {
-    background-color: #183D30;
-    color: #E8D8C3;
-    width: 100%;
-    padding: 45px 5% 25px;
-}
-
-/* Texto superior del footer */
-#ContenedorFooter {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-/* Texto Pie de página */
-#piePagina {
-    color: #E8D8C3;
+    padding: 0.4rem 1rem;
+    background-color: var(--verde-bosque);
+    color: var(--champagne);
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 11px;
 }
 
-/* Distribución de columnas */
-footer .row {
+/* ---------- Navegación ---------- */
+nav {
     display: flex;
     justify-content: space-between;
-    row-gap: 30px;
+    align-items: center;
+    padding: 0.5rem var(--margen-lateral);
+    background-color: var(--champagne);
+    height: 70px;
 }
 
-/* Encabezados de columnas */
-footer h5 {
-    color: #E8D8C3;
-    font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    margin-bottom: 20px;
+#logo_name {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
 }
 
-/* Textos y enlaces */
-footer p {
-    color: #F7F3EB;
-    font-family: 'Inter', sans-serif;
-    font-size: 13px;
-    line-height: 1.8;
-    margin-bottom: 10px;
+#logo_name span {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--verde-bosque);
 }
 
-/* Iconos SVG */
-footer svg {
-    color: #E8D8C3;
-    width: 22px;
-    height: 22px;
-    margin-bottom: 8px;
-    transition: transform 0.3s ease;
+#navegacion {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    font-size: 12px;
 }
 
-/* Efecto visual al pasar el cursor */
-footer svg:hover {
-    color: #C5A477;
-    transform: scale(1.15);
+#navegacion a:hover {
+    color: var(--dorado-suave);
 }
 
-/* Adaptación para celulares */
-@media (max-width: 576px) {
+#dibujitos {
+    display: flex;
+    gap: 1rem;
+}
 
-    footer {
-        padding: 35px 20px;
-    }
+#dibujitos svg {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
 
-    footer .row {
-        row-gap: 25px;
-    }
+/* ---------- Footer ---------- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2.5rem 15%;
+    background-color: var(--verde-bosque);
+    color: var(--marfil);
+}
 
-    footer h5 {
-        font-size: 14px;
-    }
+.footer-marca {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
 
-    footer p {
-        font-size: 12px;
-    }
+.footer-marca .marca {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.redes {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    background-color: var(--marfil);
+    color: var(--verde-bosque);
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.footer-columna {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    font-size: 11px;
+}
+
+.footer-columna h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+}
+
+.footer-columna a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.footer-columna a:hover {
+    color: var(--dorado-suave);
+}
+
+.footer-columna i {
+    font-size: 18px;
 }
