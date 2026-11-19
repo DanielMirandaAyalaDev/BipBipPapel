@@ -25,23 +25,10 @@
      font-size: 0.95rem;
    }
    
-   /* styles.css le pone padding a <main>; en esta página las secciones
-      de misión/visión y propuesta de valor van de orilla a orilla. */
    main {
      padding: 0;
    }
    
-   /* =====================================================================
-      COMPATIBILIDAD CON BOOTSTRAP 5
-      El HTML usa clases de Bootstrap 5 (col-md-6, row-cols-lg-5, p-lg-5...),
-      pero esta rama carga Bootstrap 6 alpha, que:
-        - cambió los nombres responsivos (usa md:col-6 en vez de col-md-6),
-        - redujo la escala de espaciado (p-4, my-5, g-4 son más chicos),
-        - mete sus estilos en @layer, así que el reset "* { margin:0; padding:0 }"
-          de styles.css le gana y anula márgenes, paddings y el centrado del container.
-      Aquí se reconstruyen esas clases, solo dentro de <main>, con los valores de Bootstrap 5
-      para que la página se vea igual que en rama-acercade.
-      ===================================================================== */
    
    main p {
      margin-bottom: 1rem;
