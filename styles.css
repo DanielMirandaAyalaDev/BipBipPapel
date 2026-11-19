@@ -177,7 +177,7 @@ footer {
     /* La marca y las redes ocupan toda la primera fila */
     .footer-marca {
         grid-column: 1 / -1;
-        align-items: center;s
+        align-items: center;
     }
 }
 
