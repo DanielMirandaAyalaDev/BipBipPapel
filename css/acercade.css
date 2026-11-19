@@ -1,6 +1,3 @@
-/* Iconos de Bootstrap (bi-*): el HTML de esta rama solo carga Tabler Icons,
-   así que se importan aquí para que se vean los íconos de misión, visión y valores.
-   @import debe ir siempre al inicio del archivo. */
    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
    :root {
