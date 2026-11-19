@@ -166,7 +166,6 @@ footer {
         gap: 1.5rem;
     }
 
-    /* El footer pasa a una cuadrícula de 3 columnas */
     footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -174,7 +173,6 @@ footer {
         padding: 2.5rem var(--margen-lateral);
     }
 
-    /* La marca y las redes ocupan toda la primera fila */
     .footer-marca {
         grid-column: 1 / -1;
         align-items: center;
@@ -190,7 +188,6 @@ footer {
         text-align: center;
     }
 
-    /* Primera fila: logo + iconos. Segunda fila: enlaces */
     nav {
         flex-wrap: wrap;
         padding: 0.75rem var(--margen-lateral);
@@ -209,8 +206,8 @@ footer {
     }
 
     #navegacion {
-        order: 3;                 /* lo manda después de los iconos */
-        width: 100%;              /* ocupa toda la fila */
+        order: 3;
+        width: 100%; 
         justify-content: center;
         gap: 1.5rem;
         margin-top: 0.75rem;
