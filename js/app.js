@@ -1,6 +1,6 @@
 // js/app.js
 
-const URL_JSON = 'infoProductos/info.productos.json';
+const URL_JSON = '/InfoProductos/info_productos.json'
 const contenedor = document.getElementById('contenedor-productos');
 
 // Función principal que se ejecuta al cargar la página

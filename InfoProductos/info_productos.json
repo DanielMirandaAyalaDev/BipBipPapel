@@ -1,21 +1,21 @@
-{
-    "categorias": [
-      {
-        "id": 1,
-        "nombre": "Papelería",
-        "productos": [
-          { "id": 1, "nombre": "Cuaderno Premium A5", "precio": 189, "descripcion": "Cuaderno de pasta dura con acabado minimalista", "stock": 25, "imagen": "../imagenes/ImagenesProductos/1.jpg" },
-          { "id": 2, "nombre": "Agenda Ejecutiva 2026", "precio": 349, "descripcion": "Agenda anual con diseño elegante y planeación semanal", "stock": 15, "imagen": "../imagenes/ImagenesProductos/2.jpg" },
-          { "id": 3, "nombre": "Set de Libretas Pastel", "precio": 129, "descripcion": "Set de tres libretas en tonos pastel", "stock": 30, "imagen": "../imagenes/ImagenesProductos/3.jpg" },
-          { "id": 4, "nombre": "Diario de Gratitud", "precio": 229, "descripcion": "Diario con prompts para reflexión y bienestar", "stock": 18, "imagen": "../imagenes/ImagenesProductos/4.jpg" },
-          { "id": 5, "nombre": "Bloc de Notas Minimalista", "precio": 89, "descripcion": "Bloc de notas con hojas desprendibles", "stock": 40, "imagen": "../imagenes/ImagenesProductos/5.jpg" },
-          { "id": 6, "nombre": "Cuaderno de Puntos", "precio": 159, "descripcion": "Cuaderno punteado para bullet journal", "stock": 22, "imagen": "../imagenes/ImagenesProductos/6.jpg" },
-          { "id": 7, "nombre": "Planner de Escritorio", "precio": 199, "descripcion": "Planificador semanal para organizar tareas", "stock": 20, "imagen": "../imagenes/ImagenesProductos/7.jpg" },
-          { "id": 8, "nombre": "Tarjetas de Correspondencia", "precio": 149, "descripcion": "Set de tarjetas premium con sobres", "stock": 35, "imagen": "../imagenes/ImagenesProductos/8.jpg" },
-          { "id": 9, "nombre": "Libro de Bocetos", "precio": 179, "descripcion": "Sketchbook de papel grueso para dibujo", "stock": 12, "imagen": "../imagenes/ImagenesProductos/9.jpg" },
-          { "id": 10, "nombre": "Notas Adhesivas Elegantes", "precio": 79, "descripcion": "Set de notas adhesivas en colores neutros", "stock": 50, "imagen": "../imagenes/ImagenesProductos/10.jpg" }
-        ]
-      },
+  {
+      "categorias": [
+        {
+          "id": 1,
+          "nombre": "Papelería",
+          "productos": [
+            { "id": 1, "nombre": "Cuaderno Premium A5", "precio": 189, "descripcion": "Cuaderno de pasta dura con acabado minimalista", "stock": 25, "imagen": "../imagenes/ImagenesProductos/1.jpg" },
+            { "id": 2, "nombre": "Agenda Ejecutiva 2026", "precio": 349, "descripcion": "Agenda anual con diseño elegante y planeación semanal", "stock": 15, "imagen": "../imagenes/ImagenesProductos/2.jpg" },
+            { "id": 3, "nombre": "Set de Libretas Pastel", "precio": 129, "descripcion": "Set de tres libretas en tonos pastel", "stock": 30, "imagen": "../imagenes/ImagenesProductos/3.jpg" },
+            { "id": 4, "nombre": "Diario de Gratitud", "precio": 229, "descripcion": "Diario con prompts para reflexión y bienestar", "stock": 18, "imagen": "../imagenes/ImagenesProductos/4.jpg" },
+            { "id": 5, "nombre": "Bloc de Notas Minimalista", "precio": 89, "descripcion": "Bloc de notas con hojas desprendibles", "stock": 40, "imagen": "../imagenes/ImagenesProductos/5.jpg" },
+            { "id": 6, "nombre": "Cuaderno de Puntos", "precio": 159, "descripcion": "Cuaderno punteado para bullet journal", "stock": 22, "imagen": "../imagenes/ImagenesProductos/6.jpg" },
+            { "id": 7, "nombre": "Planner de Escritorio", "precio": 199, "descripcion": "Planificador semanal para organizar tareas", "stock": 20, "imagen": "../imagenes/ImagenesProductos/7.jpg" },
+            { "id": 8, "nombre": "Tarjetas de Correspondencia", "precio": 149, "descripcion": "Set de tarjetas premium con sobres", "stock": 35, "imagen": "../imagenes/ImagenesProductos/8.jpg" },
+            { "id": 9, "nombre": "Libro de Bocetos", "precio": 179, "descripcion": "Sketchbook de papel grueso para dibujo", "stock": 12, "imagen": "../imagenes/ImagenesProductos/9.jpg" },
+            { "id": 10, "nombre": "Notas Adhesivas Elegantes", "precio": 79, "descripcion": "Set de notas adhesivas en colores neutros", "stock": 50, "imagen": "../imagenes/ImagenesProductos/10.jpg" }
+          ]
+        },
       {
         "id": 2,
         "nombre": "Plumas y Escritura",
@@ -162,3 +162,4 @@
       }
     ]
   }
+  
