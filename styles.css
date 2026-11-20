@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@400;500&display=swap');
+
+:root {
+    --verde-bosque: #183D30;
+    --champagne: #E8D8C3;
+    --marfil: #F7F3EB;
+    --dorado-suave: #C5A477;
+    --verde-salvia: #A5B09A;
+    --beige-arena: #D8C5AC;
+    --carbon: #292B27;
+
+    --margen-lateral: 8%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    background-color: var(--marfil);
+    color: var(--carbon);
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 2rem var(--margen-lateral);
+}
+
+/* ---------- Header ---------- */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem 1rem;
+    background-color: var(--verde-bosque);
+    color: var(--champagne);
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+}
+
+/* ---------- Navegación ---------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem var(--margen-lateral);
+    background-color: var(--champagne);
+    min-height: 70px;   /* antes: height */
+}
+
+#logo_name img {
+    height: auto;
+}
+
+#navegacion {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    font-size: 12px;
+}
+
+#navegacion a:hover {
+    color: var(--dorado-suave);
+}
+
+#dibujitos {
+    display: flex;
+    gap: 1rem;
+}
+
+#dibujitos svg {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2.5rem 15%;
+    background-color: var(--verde-bosque);
+    color: var(--marfil);
+}
+
+.footer-marca {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.footer-marca .marca {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.redes {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    background-color: var(--marfil);
+    color: var(--verde-bosque);
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.footer-columna {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    font-size: 11px;
+}
+
+.footer-columna h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+}
+
+.footer-columna a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.footer-columna a:hover {
+    color: var(--dorado-suave);
+}
+
+.footer-columna i {
+    font-size: 18px;
+}
+
+/* ==========================================
+   RESPONSIVIDAD: Tablet
+   ========================================== */
+   @media (max-width: 900px) {
+    :root {
+        --margen-lateral: 5%;
+    }
+
+    #navegacion {
+        gap: 1.5rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding: 2.5rem var(--margen-lateral);
+    }
+
+    .footer-marca {
+        grid-column: 1 / -1;
+        align-items: center;
+    }
+}
+
+/* ==========================================
+   RESPONSIVIDAD: Celular
+   ========================================== */
+@media (max-width: 600px) {
+    header {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        padding: 0.75rem var(--margen-lateral);
+    }
+
+    #logo_name {
+        gap: 0.75rem;
+    }
+
+    #logo_name img {
+        width: 60px;
+    }
+
+    #logo_name span {
+        font-size: 15px;
+    }
+
+    #navegacion {
+        order: 3;
+        width: 100%; 
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 0.75rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid var(--beige-arena);
+    }
+
+    /* Footer en 2 columnas */
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
