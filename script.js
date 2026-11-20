@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log("si hay hay algo");
         }
     }
-
+    
     function mostrarAlerta() {
         console.log("Hubo un error");
         const error = document.createElement('P');
