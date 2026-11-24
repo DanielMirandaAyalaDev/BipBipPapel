@@ -1,77 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de Nosotros</title>
-    <!--Importación de archivo Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!--Iconos de Bootstrap-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!--Importación de archivo Style propio de proyecto-->
-    <link rel="stylesheet" href="estiloAcercade.css">
+    <title>Bip Bip Papel</title>
+
+    <!-- Iconos para el footer (redes sociales y apps) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/acercade.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <header>
-        <!--Barra superior del header-->
-        <div id="ContenedorHeader" class="py-2 small">
-            <p class="mb-0"><i class="bi bi-truck me-1"></i>Envío a todo México</p>
-            <p class="mb-0 d-none d-sm-block"><i class="bi bi-bag me-1"></i>Compra mínima de $699</p>
-            <p class="mb-0"><i class="bi bi-shield-check me-1"></i>Pago seguro</p>
+    <header>Envíos a todo México &nbsp;|&nbsp; Compra mínima de $500 MXN</header>
+
+    <nav>
+        <a href="#" id="logo_name">
+            <img src="../assets/img/logotipos/logo_transparente.png" alt="Logo Bip Bip Papel" width="100">
+        </a>
+
+        <ul id="navegacion">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <div id="dibujitos">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-search"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /><path d="M21 21l-6 -6" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-bell"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" /><path d="M9 17v1a3 3 0 0 0 6 0v-1" /></svg>
         </div>
-      
-        <div id="containerbarra" class="d-flex justify-content-center align-items-center position-relative">             
-            <!--Seccion de la barra de navegacion-->
-            <nav class="navbar navbar-expand-lg">
-                <!--Contenedor del logo-->
-                  <a class="navbar-brand start-0 ms-3" href="#" >
-                    <img id="logo" src="imagenes/logo_transparente.png" alt="Logo Bip Bip Papel">
-                </a>
-            
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class=" collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav  ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="acercade.html">A cerca de</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
-
-            </nav>
-
-        </div>
-
-
-
-
-
-    </header>
+    </nav>
 
     <main>
-        <!--Sección ¿Quiénes somos?-->
         <section id="container" class="container my-4">
             <div class="row align-items-center g-4">
                 <div id="contenedorImagen" class="col-md-6">
-                    <img id="libreta" src="imagenes/qsbipbip.png" alt="Libretas Bip Bip Papel" class="img-fluid">
+                    <img id="libreta" src="../assets/img/acercade/qsbipbip.png" alt="Libretas Bip Bip Papel" class="img-fluid">
                 </div>
 
                 <div id="contenedorHistoria" class="col-md-6">
@@ -123,7 +90,7 @@
             <div id="contenedorPerfiles" class="row justify-content-center g-4">
                 <div class="col-6 col-md-3">
                     <a class="tarjeta-perfil" href="https://www.linkedin.com/in/danielmirandaayala/" target="_blank">
-                        <img src="imagenes/daniel.jpg" alt="Daniel Miranda Ayala">
+                        <img src="../assets/img/acercade/daniel.jpg" alt="Daniel Miranda Ayala">
                         <p class="nombre">Daniel Miranda Ayala</p>
                         <p class="rol">Product Owner</p>
                     </a>
@@ -131,14 +98,14 @@
                 <div class="col-6 col-md-3">
                     <a class="tarjeta-perfil" href="https://www.linkedin.com/in/teresa-erandi-mejía-pascual-80a5a1313"
                         target="_blank">
-                        <img src="imagenes/teresa.png" alt="Teresa Erandi Mejía Pascual">
+                        <img src="../assets/img/acercade/teresa.png" alt="Teresa Erandi Mejía Pascual">
                         <p class="nombre">Teresa Erandi Mejía Pascual</p>
                         <p class="rol">Team Developer</p>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a class="tarjeta-perfil" href="https://www.linkedin.com/in/hectorsanchezarroyo/" target="_blank">
-                        <img src="imagenes/hector.jpg" alt="Héctor Adrián Sánchez Arroyo">
+                        <img src="../assets/img/acercade/hector.jpg" alt="Héctor Adrián Sánchez Arroyo">
                         <p class="nombre">Héctor Adrián Sánchez Arroyo</p>
                         <p class="rol">Scrum Master</p>
                     </a>
@@ -146,14 +113,14 @@
                 <div class="col-6 col-md-3">
                     <a class="tarjeta-perfil" href="https://www.linkedin.com/in/paula-cecilia-velazquez-ortiz"
                         target="_blank">
-                        <img src="imagenes/ceci.jpg" alt="Paola Cecilia Velázquez Ortiz">
+                        <img src="../assets/img/acercade/ceci.jpg" alt="Paola Cecilia Velázquez Ortiz">
                         <p class="nombre">Paola Cecilia Velázquez Ortiz</p>
                         <p class="rol">Team Developer</p>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a class="tarjeta-perfil" href="https://www.linkedin.com/in/axeelgarcia/" target="_blank">
-                        <img src="imagenes/axel.png" alt="Axeel Yahir García Rodríguez">
+                        <img src="../assets/img/acercade/axel.png" alt="Axeel Yahir García Rodríguez">
                         <p class="nombre">Axeel Yahir García Rodríguez</p>
                         <p class="rol">Team Developer</p>
                     </a>
@@ -161,14 +128,14 @@
                 <div class="col-6 col-md-3">
                     <a class="tarjeta-perfil" href="https://www.linkedin.com/in/iris-carina-lora-rivera/"
                         target="_blank">
-                        <img src="imagenes/iris.png" alt="Iris Carina Lora Rivera">
+                        <img src="../assets/img/acercade/iris.png" alt="Iris Carina Lora Rivera">
                         <p class="nombre">Iris Carina Lora Rivera</p>
                         <p class="rol">Team Developer</p>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
                     <a class="tarjeta-perfil" href="https://www.linkedin.com/in/misael-vivian" target="_blank">
-                        <img src="imagenes/misael.jpg" alt="Rubén Misael Olguín Vivian">
+                        <img src="../assets/img/acercade/misael.jpg" alt="Rubén Misael Olguín Vivian">
                         <p class="nombre">Rubén Misael Olguín Vivian</p>
                         <p class="rol">Líder Técnico</p>
                     </a>
@@ -223,7 +190,7 @@
                 <div id="contendorPrupuestaValoresImagenes" class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-3">
                     <div class="col">
                         <div class="tarjeta-propuesta">
-                            <img src="imagenes/cuaderno.jpg" alt="Diseños originales">
+                            <img src="../assets/img/acercade/cuaderno.jpg" alt="Diseños originales">
                             <div>
                                 <h6>DISEÑOS ORIGINALES</h6>
                                 <p>Artículos que inspiran tu creatividad.</p>
@@ -232,7 +199,7 @@
                     </div>
                     <div class="col">
                         <div class="tarjeta-propuesta">
-                            <img src="imagenes/calidad.jpg" alt="Calidad garantizada">
+                            <img src="../assets/img/acercade/calidad.jpg" alt="Calidad garantizada">
                             <div>
                                 <h6>CALIDAD GARANTIZADA</h6>
                                 <p>Productos seleccionados cuidadosamente.</p>
@@ -241,7 +208,7 @@
                     </div>
                     <div class="col">
                         <div class="tarjeta-propuesta">
-                            <img src="imagenes/regalo.png" alt="Detalles especiales">
+                            <img src="../assets/img/acercade/regalo.png" alt="Detalles especiales">
                             <div>
                                 <h6>DETALLES ESPECIALES</h6>
                                 <p>Papelería para expresar tu personalidad.</p>
@@ -250,7 +217,7 @@
                     </div>
                     <div class="col">
                         <div class="tarjeta-propuesta">
-                            <img src="imagenes/carrito.jpg" alt="Compra fácil y segura">
+                            <img src="../assets/img/acercade/carrito.jpg" alt="Compra fácil y segura">
                             <div>
                                 <h6>COMPRA FÁCIL Y SEGURA</h6>
                                 <p>Una experiencia sencilla y confiable.</p>
@@ -263,16 +230,45 @@
     </main>
 
     <footer>
-        <!--Contenedor general de footer-->
-        <div id="contenedorFooter" class="py-4">
-            <p id="piePagina" class="text-center mb-0">Bip Bip Papel</p>
+        <div class="footer-marca">
+            <span class="marca">Bip Bip Papel</span>
+            <div class="redes">
+                <a href="#" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+                <a href="#" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="ti ti-brand-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-columna">
+            <h3>Blog</h3>
+            <a href="#">Empresa</a>
+            <a href="#">Móvil</a>
+            <a href="#">¿Cómo funciona?</a>
+        </div>
+
+        <div class="footer-columna">
+            <h3>Acerca de</h3>
+            <a href="#">Contactos</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">FAQ</a>
+            <a href="#">Nuestro equipo</a>
+            <a href="#">Términos de servicio</a>
+        </div>
+
+        <div class="footer-columna">
+            <h3>Producto</h3>
+            <a href="#">Condiciones de uso</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Acceso</a>
+        </div>
+
+        <div class="footer-columna">
+            <h3>Download App</h3>
+            <a href="#"><i class="ti ti-brand-google-play"></i> Google Play</a>
+            <a href="#"><i class="ti ti-brand-apple"></i> Apple Store</a>
+            <a href="#"><i class="ti ti-device-desktop"></i> Desktop</a>
         </div>
     </footer>
-
-    <!--Importación archivo JS Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>
