@@ -8,6 +8,8 @@
     <!-- Iconos para el footer (redes sociales y apps) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.19.0/dist/tabler-icons.min.css">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/contactanos.css">
+    <script src="../js/formularioContacto.js"></script>
 </head>
 <body>
     <header>Envíos a todo México &nbsp;|&nbsp; Compra mínima de $500 MXN</header>
@@ -32,7 +34,67 @@
     </nav>
 
     <main>
-        <h1>Página de Contacto</h1>
+        <h2>¡Contáctanos!</h2>
+        <p>Nos comprometemos a procesa la información con el fin de ponernos
+            en contacto con usted y hablar sobre sus dudas.
+        </p>
+        <!--Form-->
+        <form class="row g-3" id="formularioContacto">
+            <div class="col-auto">
+                <label for="formControlInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputNombre" placeholder="Nombre Apellidos">
+      
+                
+                <label for="formControlInput" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="nombre@ejemplo.com">
+
+                <label for="formControlInput" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="inputTelefono" placeholder="0123456789">
+
+                <label for="formControlInput" class="form-label">Mensaje</label>
+                <input type="text" class="form-control" id="inputMensaje" placeholder="Escribe aquí tu mensaje">
+                <div class="d-flex justify-content-center align-items-center">
+                    <button type="submit" id="btnformEnviarContacto" class="btn">Enviar</button>
+                </div>
+
+            </div>
+
+        </form>
+        <!--Botón de enviar formulario-->
+
+        <!--Boton de alerta-->
+        <div class="alert alert-success alert-dismissible fade show" role="alert" id="alertaCorrecta">
+        </div>
+
+        <!--Iconos para mensajes-->
+        <!--Carta-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-mail">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+            <path d="M3 7l9 6l9 -6" />
+        </svg>
+        <p>bipbippapel@gmail.com</p>
+        <!--Ubicación-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0" />
+        </svg>
+        <p>1234 Av. Tamagotchi, CDMX.</p>
+        <!--Celular-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-device-mobile">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M6 5a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2v-14" />
+            <path d="M11 4h2" />
+            <path d="M12 17v.01" />
+        </svg>
+        <p>+52 5512345678</p>
     </main>
 
     <footer>
