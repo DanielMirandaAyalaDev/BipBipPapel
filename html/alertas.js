@@ -23,6 +23,7 @@ function mostrarAlerta(mensaje, tipo) {
     // 2. Limpiar mensajes anteriores
   //  contenedor.innerHTML = "";
 
+  
 
             console.log(tipo);
         if (tipo === "info") {
