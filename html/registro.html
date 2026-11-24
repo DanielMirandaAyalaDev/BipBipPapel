@@ -40,10 +40,11 @@
         <!-- Formulario de registro -->
         <section class="container col-md-6 col-lg-4">
 
+            <div id="contenedorAlertas" aria-live="polite"></div>
             <!-- Título del formulario -->
             <h1 class="text-center mb-3">Regístrate</h1>
 
-            <form>
+            <form id="formularioRegistro">
 
                 <!-- Campo para escribir el nombre -->
                 <div class="mb-2">
@@ -62,6 +63,16 @@
                            class="form-control"
                            id="email"
                            placeholder="ejemplo@gmail.com"
+                           required>
+                </div>
+
+                <!-- Campo para escribir el telefono -->
+                <div class="mb-2">
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="telefono"
+                           class="form-control"
+                           id="telefono"
+                           placeholder="55555555"
                            required>
                 </div>
 
@@ -145,5 +156,6 @@
             <a href="#"><i class="ti ti-device-desktop"></i> Desktop</a>
         </div>
     </footer>
+    <script src="./formulario.js" defer></script>
 </body>
 </html>
